@@ -6,7 +6,7 @@
   />
 </p>
 
-## 🚀 DevLinks
+## 💻 DevLinks
 
 Aplicação desenvolvida para facilitar a interação com minhas redes/plataformas de contato.
 
@@ -19,9 +19,13 @@ Aplicação desenvolvida para facilitar a interação com minhas redes/plataform
 - index.html -> Arquivo responsável em coordenador o funcionamento da landing page da aplicação;
 - readme.md -> Arquivo responsável em criar um resumo do funcionamento da aplicação;
 
-## 💻 Techs utilizadas:
+## 🔧 Techs utilizadas:
 
 - Visual Studio Code (editor código-fonte);
 - HTML;
 - CSS;
 - Javascript;
+
+## 🚀 Deploy
+
+- vercel [ https://genari-dev.vercel.app/ ]
