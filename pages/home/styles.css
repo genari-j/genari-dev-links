@@ -60,6 +60,8 @@
   left: 0;
   transform: translateY(-50%);
 
+  animation: theme-slide-out .3s;
+
   border-radius: 50%;
 
   background: white var(--switch-bg-url) no-repeat center/cover;
@@ -76,10 +78,7 @@
   border: 2px solid var(--black8);
 }
 
-.light header #light-dark-switch button {
-  right: 0;
-  left: initial;
-}
+.light header #light-dark-switch button { animation: theme-slide-in .3s forwards; }
 
 /* MAIN */
 .content main { width: 100%; }
@@ -180,4 +179,16 @@
     height: 100%;
     padding: 1rem;
   }
+}
+
+
+/* ANIMATIONS */
+@keyframes theme-slide-in {
+  from { left: 0; }
+  to { left: 50%; }
+}
+
+@keyframes theme-slide-out {
+  from { left: 50%; }
+  to { left: 0; }
 }
